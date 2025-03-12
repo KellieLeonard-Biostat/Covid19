@@ -1,4 +1,4 @@
-# A Comprehensive Analysis of Clinical Trial Enrolment Across Leading Countries Using Python
+# A Comprehensive Analysis of Clinical Trial COVID-19 Enrolment Across Leading Countries Using Python
 
 **Abstract**
 This report investigates clinical trial enrolment across the top 10 leading countries in COVID-19 clinical trials, focusing on study types, enrolment size distribution, and the characteristics of enrolment patterns. By using Python and data visualisation tools such as pandas, seaborn, and matplotlib, this analysis provides insights into global participation in COVID-19 clinical trials, highlighting disparities across different countries. The visualisations include bar plots, count plots, and median enrolment figures, each answering specific questions about clinical trial participation patterns across nations.
@@ -8,22 +8,35 @@ Clinical trials are pivotal in understanding treatments, vaccines, and therapeut
 This report focuses on analysing clinical trial data for COVID-19-related studies from the top 10 leading countries, emphasising study types, enrolment sizes, and country-specific patterns. By utilising Python and its robust data science libraries, the report demonstrates advanced skills in data preparation, analysis, and visualisation, providing a reproducible methodology for exploring similar datasets.
 
 **Methods**
+
 The analysis was conducted using the following methodology:
-1.	Data Acquisition and Preparation
-o	The dataset was retrieved from Kaggle’s COVID-19 Clinical Trials Dataset (Pandey, 2020).
-o	The data underwent preprocessing to remove missing values and irrelevant columns. The focus was on enrolment sizes, study types, and country-level data.
-2.	Data Filtering and Aggregation
-o	Countries were ranked based on their total enrolment in clinical trials. The top 10 countries were selected for further analysis.
-o	Study type distribution (interventional vs. observational) was analysed for the top 5 countries.
-o	Median enrolment sizes were calculated for the top 5 countries to identify trends in trial sizes.
-3.	Visualisation Techniques
-o	Bar plots were used to visualise total enrolment and median enrolment sizes.
-o	Count plots highlighted the distribution of study types across countries.
-o	All visualisations employed a pastel colour palette for aesthetic and scientific clarity.
+
+1.	Data Acquisition and Preparation:
+
+    •	The dataset was retrieved from Kaggle’s COVID-19 Clinical Trials Dataset (Pandey, 2020).
+
+    •	The data underwent preprocessing to remove missing values and irrelevant columns. The focus was on enrolment sizes, study types, and country-level data.
+
+2.	Data Filtering and Aggregation:
+
+    •	Countries were ranked based on their total enrolment in clinical trials. The top 10 countries were selected for further analysis.
+
+    •	Study type distribution (interventional vs. observational) was analysed for the top 5 countries.
+
+    •	Median enrolment sizes were calculated for the top 5 countries to identify trends in trial sizes.
+
+3.	Visualisation Techniques:
+
+  	•	Bar plots were used to visualise total enrolment and median enrolment sizes.
+
+  	•	Count plots highlighted the distribution of study types across countries.
+
+  	•	All visualisations employed a pastel colour palette for aesthetic and scientific clarity.
 
 **Results**
 
 **1. Top 10 Countries Contributing to COVID-19 Clinical Trials**
+
 The United States, France, and United Kingdom lead global participation in COVID-19 clinical trials. The total enrolment numbers for these countries demonstrate their strong research infrastructure and active participation in combating the pandemic.
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/77029a38-e774-4328-a65f-ee81a0a1df39" />
@@ -31,6 +44,7 @@ The United States, France, and United Kingdom lead global participation in COVID
 Figure 1. Top 10 countries contributing to COVID-19 clinical trials 
 
 **Findings:**
+
 •	The United States ranks first with the highest total enrolment, reflecting its robust infrastructure for conducting clinical trials.
 
 •	France and United Kingdom follow, showcasing significant contributions to vaccine and therapeutic development.
@@ -39,6 +53,7 @@ Figure 1. Top 10 countries contributing to COVID-19 clinical trials
 
 
 **2. Study Type Distribution in the Top 5 Countries**
+
 The study type distribution was analysed to compare the prevalence of interventional and observational trials in the top 5 countries.
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/326cc891-9f68-477c-8eca-53586e161950" />
@@ -71,13 +86,18 @@ Figure 3. Median enrolment in clinical trials (top 5 countries)
 
 
 **Discussion**
+
 The findings emphasise the significant contributions of the United States, France, and United Kingdom to global COVID-19 research. The dominance of interventional studies reflects the urgency of developing treatments and vaccines during the pandemic. The United Kingdom's focus on large-scale trials is noteworthy, as it ensures robust statistical power and generalisability of findings.
+
 The United States, despite having the highest total enrolment, conducts many smaller trials. This strategy enables faster data collection and rapid response but may limit the generalizability of individual studies.
 
 **Limitations**
+
 •	The analysis is based on publicly available data, which may not capture all clinical trials conducted worldwide.
+
 •	Variability in reporting standards and trial registration across countries may introduce biases.
 
 **Conclusion**
+
 This analysis demonstrates how Python can be used to extract meaningful insights from clinical trial datasets. By leveraging bar plots and count plots, the report highlights the contributions of leading countries in COVID-19 clinical trials. The findings underscore the importance of collaborative efforts and diverse research strategies in addressing global health challenges.
 
